@@ -29,7 +29,13 @@
 			.col-6 {width: 50%;}
 			.col-7 {width: 58.33%;}
 			.col-8 {width: 66.66%;}
-			.col-9 {width: 75%;}
+			
+			.col-9 {
+				width: 75%; 
+				font-size: 12px;
+				font-weight: bold;
+			}
+			
 			.col-10 {width: 83.33%;}
 			.col-11 {width: 91.66%;}
 			.col-12 {width: 100%;}
@@ -51,7 +57,7 @@
 			.footer {
 				padding: 20px;
 				text-align: center;
-				background: #ddd;
+				background-color: #F8CB9F;
 			}	
 			
 			.col-9 img {
@@ -62,21 +68,12 @@
 				height: auto;
 			}
 			
-			form {
+			table, tr, th, td {
 				text-align: center;
-				margin-left: auto;
-				margin-right: auto;
-				border-radius: 5px;
 				border: 2px solid black;
-				background-color: #B49475;
-			}
-			
-			input[type=submit], input[type=reset] {
-				background-color: #F8CB9F;
-				border: none;
-				cursor: pointer;
-				font-family: Felix Titling Regular;
-				font-size: 18px;
+				margin-right: auto;
+				margin-left: auto;
+				font-family: Felix Titling Regular, Algerian Regular;
 			}
 		</style>
 	</head>
@@ -103,5 +100,137 @@
 				<a href="tolkienActivities.html">Activites</a>
 			</div>
 		</header>
+		<!--grid-->
+		<div class="row">
+				<div class="col-3 menu">
+					<p style="text-align:center;font-family:Felix Titling Regular, Algerian Regular;font-size:10px;">Most Popular Degrees</p>
+					<ul>
+						<li><img src="wizard.jpg" alt="wizard"/></li>
+						<p style="text-align:center;font-family:Felix Titling Regular, Algerian Regular;font-size:10px;">Spell Mastery</p>
+						<li><img src="knight.jpg" alt="knight"/></li>
+						<p style="text-align:center;font-family:Felix Titling Regular, Algerian Regular;font-size:10px;">Knight Mastery</p>
+						<li><img src="mining.jpg" alt="miner"/></li>
+						<p style="text-align:center;font-family:Felix Titling Regular, Algerian Regular;font-size:10px;">Mining Mastery</p>
+						<li><img src="ranger.jpg" alt="ranger"/></li>
+						<p style="text-align:center;font-family:Felix Titling Regular, Algerian Regular;font-size:10px;">Ranger Mastery</p>
+						<li><img src="blacksmith.jpg" alt="blacksmith"/></li>
+						<p style="text-align:center;font-family:Felix Titling Regular, Algerian Regular;font-size:10px;">Armor Mastery</p>
+					</ul>
+				</div>
+				<div class="col-9">
+				<h2 style="font-family:Felix Titling Regular, Algerian Regular;text-align:center;">Available Degrees</h2>
+				<table>
+					<tr>
+						<th>Degree Name</th>
+						<th>Credits Needed</th>
+						<th>Degree Description</th>
+					</tr>
+					<tr>
+						<td>Spell Mastery</td>
+						<td>150 Credits</td>
+						<td>A master of spells, runes, weather manipulation, and wizard staff crafting (Professor Gandalf graduated with this degree)</td>
+					</tr>
+					<tr>
+						<td>Knight Mastery</td>
+						<td>100 Credits</td>
+						<td>A master of swordmanship, hand to hand combat, and defensive strategy (Professor Boromir graduated with this degree)</td>
+					</tr>
+					<tr>
+						<td>Mining Mastery</td>
+						<td>80 Credits</td>
+						<td>A master of rapelling, mining, pickaxe handling, and navigation (Professor Gimli graduated with this degree)</td>
+					</tr>
+					<tr>
+						<td>Ranger Mastery</td>
+						<td>130 Credits</td>
+						<td>A master of tracking animals, stealth, swordcraft, and hunting (Professor Aragorn graduated with this degree)</td>
+					</tr>
+					<tr>
+						<td>Armor Mastery</td>
+						<td>120 Credits</td>
+						<td>A master of smithing armor, angles, and wearing any armor type effectively</td>
+					</tr>
+					<tr>
+						<td>Rune Mastery</td>
+						<td>150 Credits</td>
+						<td>A master of deciphering runes and correctly opening their mystical secrets</td>
+					</tr>
+					<tr>
+						<td>Horse Mastery</td>
+						<td>120 Credits</td>
+						<td>A master of taming horses, horseback riding, and saddle crafting (Professor Theoden graduated with this degree)</td>
+					</tr>
+					<tr>
+						<td>Archer Mastery</td>
+						<td>100 credits</td>
+						<td>A mastery of bow handlng, arrow crafting, and marksmanship with shooting arrows (Professor Legolas graduated with this degree)</td>
+					</tr>
+					<tr>
+						<td>Cook Mastery</td>
+						<td>70 Credits</td>
+						<td>A mastery of knowledge with all food groups, fire crafting, and food preparation (Professor Samwise graduated with this degree)</td>
+					</tr>
+					<tr>
+						<td>Hunting Mastery</td>
+						<td>90 Credits</td>
+						<td>A mastery of tracking animals, setting traps, and wilderness survival skills</td>
+					</tr>
+					<tr>
+						<td>Sword Mastery</td>
+						<td>100 Credits</td>
+						<td>A mastery of handling a sword, sword care, and combat with a sword</td>
+					</tr>
+					<tr>
+						<td>Lute Mastery</td>
+						<td>100 Credits</td>
+						<td>A mastery of playing the lute, music patterns, and lute care</td>
+					</tr>
+					<tr>
+						<td>Elvish Mastery</td>
+						<td>150 Credits</td>
+						<td>A mastery of the elvish language, elven history, and elvish crafting (Professor Arwen graduated with this degree)</td>
+					</tr>
+					<tr>
+						<td>Wildcard Mastery</td>
+						<td>250 Credits</td>
+						<td>A mastery of all subjects taught at this school, very few have graduated with this degree</td>
+					</tr>
+				</table>
+				<br/><br/>
+				<h2 style="font-family:Felix Titling Regular, Algerian Regular;text-align:center;">Most Notable Professors</h2>
+				<br/><br/>
+				<table>
+					<tr>
+						<th>Portrait</th>
+						<th>Professor Name</th>
+						<th>Profession</th>
+					</tr>
+					<tr>
+						<td><img src="Aragorn.jpg" alt="Aragorn"/></td>
+						<td>Aragorn</td>
+						<td>A master of stealth, hunting, swordmanship, and defensive strategy</td>
+					</tr>
+					<tr>
+						<td><img src="Gandalf.jpg" alt="Gandalf"/></td>
+						<td>Gandalf</td>
+						<td>A master of spells, rune deciphering, wizard staff crafting, and weather manipulation</td>
+					</tr>
+					<tr>
+						<td><img src="theoden.jpg" alt="Theoden"/></td>
+						<td>Theoden</td>
+						<td>A master of horse taming, horseback riding, swordsmanship, and saddle crafting</td>
+					</tr>
+					<tr>
+						<td><img src="boromir2.jpg" alt="Boromir"/></td>
+						<td>Boromir</td>
+						<td>A master of Defensive strategy, swordsmanship, and hand to hand combat</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<!-- Footer -->
+		<div class="footer">
+			<h2>&copy;TolkienUniversity</h2>
+		</div>
 	</body>
 </html>
