@@ -23,13 +23,23 @@
 			
 			.col-1 {width: 8.33%;}
 			.col-2 {width: 16.66%;}
-			.col-3 {width: 20%;background-color: #B49475;}
+			
+			.col-3 {
+				width: 20%;
+				background-color: #B49475;
+			}
+			
 			.col-4 {width: 33.33%;}
 			.col-5 {width: 41.66%;}
 			.col-6 {width: 50%;}
 			.col-7 {width: 58.33%;}
 			.col-8 {width: 66.66%;}
-			.col-9 {width: 75%;}
+			
+			.col-9 {
+				width: 75%; 
+				font-size: 12px;
+				font-weight: bold;
+			}
 			.col-10 {width: 83.33%;}
 			.col-11 {width: 91.66%;}
 			.col-12 {width: 100%;}
@@ -51,7 +61,7 @@
 			.footer {
 				padding: 20px;
 				text-align: center;
-				background: #ddd;
+				background-color: #F8CB9F;
 			}	
 			
 			.col-9 img {
@@ -62,21 +72,12 @@
 				height: auto;
 			}
 			
-			form {
+			table, tr, th, td {
 				text-align: center;
-				margin-left: auto;
-				margin-right: auto;
-				border-radius: 5px;
 				border: 2px solid black;
-				background-color: #B49475;
-			}
-			
-			input[type=submit], input[type=reset] {
-				background-color: #F8CB9F;
-				border: none;
-				cursor: pointer;
-				font-family: Felix Titling Regular;
-				font-size: 18px;
+				margin-right: auto;
+				margin-left: auto;
+				font-family: Felix Titling Regular, Algerian Regular;
 			}
 		</style>
 	</head>
@@ -103,5 +104,106 @@
 				<a href="tolkienActivities.html">Activites</a>
 			</div>
 		</header>
+		<!--grid-->
+		<div class="row">
+				<div class="col-3 menu">
+					<p style="text-align:center;font-family:Felix Titling Regular, Algerian Regular;font-size:10px;">Most Popular Courses</p>
+					<ul>
+						<li><img src="Archery.jpg" alt="Archery"/></li>
+						<p style="text-align:center;font-family:Felix Titling Regular, Algerian Regular;font-size:10px;">Archery</p>
+						<li><img src="Horse.jpg" alt="Horse Taming"/></li>
+						<p style="text-align:center;font-family:Felix Titling Regular, Algerian Regular;font-size:10px;">Horse Taming</p>
+						<li><img src="Cook.jpg" alt="Cooking"/></li>
+						<p style="text-align:center;font-family:Felix Titling Regular, Algerian Regular;font-size:10px;">Cooking</p>
+						<li><img src="Sword.jpg" alt="Swordsmanship"/></li>
+						<p style="text-align:center;font-family:Felix Titling Regular, Algerian Regular;font-size:10px;">Sword Mastery</p>
+						<li><img src="Tracking.jpg" alt="Animal Tracking"/></li>
+						<p style="text-align:center;font-family:Felix Titling Regular, Algerian Regular;font-size:10px;">Animal Tracking</p>
+					</ul>
+				</div>
+				<div class="col-9">
+				<h2 style="font-family:Felix Titling Regular, Algerian Regular;text-align:center;">List of Some Available Courses (all semesters)</h2>
+				<table>
+					<tr>
+						<th>Course Name</th>
+						<th>Credit Amount</th>
+						<th>Course Description</th>
+					</tr>
+					<tr>
+						<td>Elven Speech</td>
+						<td>3 Credits</td>
+						<td>Students will learn the basics of the elven language, course includes a trip to rivendell which is the home of the elves</td>
+					</tr>
+					<tr>
+						<td>Hunting</td>
+						<td>3 Credits</td>
+						<td>Students will learn how to hunt and set up animal traps correctly, includes a hunting expedition</td>
+					</tr>
+					<tr>
+						<td>Archery</td>
+						<td>2 Credits</td>
+						<td>Students will learn how to properly use a bow and will include vigorous training at the archery range</td>
+					</tr>
+					<tr>
+						<td>Horse Taming</td>
+						<td>5 Credits</td>
+						<td>Students will learn how to tame wild horses and befriend them, the students are able to keep the horse once the class is completed</td>
+					</tr>
+					<tr>
+						<td>Leather Crafting</td>
+						<td>3 Credits</td>
+						<td>Students will learn how to craft leather pouches, saddles, sheathes, etc. Everything the student crafts they are able to keep</td>
+					</tr>
+					<tr>
+						<td>Cooking</td>
+						<td>2 Credits</td>
+						<td>Students will learn how to cook in the wilderness as well as learn what is safe to eat what is not</td>
+					</tr>
+					<tr>
+						<td>Rune Deciphering</td>
+						<td>5 Credits</td>
+						<td>Students will learn how to decipher ancient runes, mostly appicable to wizard majoring students</td>
+					</tr>
+					<tr>
+						<td>Staff Crafting</td>
+						<td>3 Credits</td>
+						<td>Students will learn how to create their own wizard staffs, mostly applicable to wizard majoring students</td>
+					</tr>
+					<tr>
+						<td>Weather Manipulation</td>
+						<td>6 Credits</td>
+						<td>Students will learn how to manipulate the weather through vigorous spell training, mostly applicable to wizard majoring students</td>
+					</tr>
+					<tr>
+						<td>Lute</td>
+						<td>3 Credits</td>
+						<td>Students will learn how to play the lute, will include a final project in which students will present a playing of ancient folktale music</td>
+					</tr>
+					<tr>
+						<td>Blacksmithing</td>
+						<td>4 Credits</td>
+						<td>Students will learn how to smith weapons, armor, and various other sets of equipment with blacksmithing tools</td>
+					</tr>
+					<tr>
+						<td>Dwarven Mining</td>
+						<td>5 Credits</td>
+						<td>Students will learn how to mine various caves, will include working alongside the dwarves for mithril</td>
+					</tr>
+					<tr>
+						<td>Swordsmanship</td>
+						<td>3 Credits</td>
+						<td>Students will learn how to master the art of sword fighting, will include vigorous training in the courtyard battlegrounds</td>
+					</tr>
+				</table>
+				<br/><br/>
+				<img src="book.jpg" alt="Book" style="margin-left:auto;margin-left:auto;display:block;"/>
+				<br/><br/>
+				<img src="book2.jpg" alt="Book" style="margin-left:auto;margin-left:auto;display:block;"/>
+			</div>
+		</div>
+		<!-- Footer -->
+		<div class="footer">
+			<h2>&copy;TolkienUniversity</h2>
+		</div>
 	</body>
 </html>
